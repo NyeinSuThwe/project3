@@ -1,15 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
+/* CSS Variables - Color Palette */
+:root {
+  /* Primary Colors */
+  --pikachu-glow: #FFE066;
+  --garden-cream: #FFF8DC;
+  --soft-blue: #A3D1FF;
+  
+  /* Secondary Siamese Notes */
+  --fur-beige: #EADFC8;
+  --cocoa-shadow: #5A4A42;
+  --deep-mocha: #3C2F29;
+  
+  /* Text */
+  --warm-gray: #4A4A4A;
+  
+  /* Spacing Scale */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 4rem;
 }
-
-html {
-  color: #222;
-  line-height: 1.4;
-  font-size: 16pt;
-}
-
-
-
-
-
