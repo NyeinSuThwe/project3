@@ -292,3 +292,25 @@ main {
   margin-top: 0;
   color: var(--deep-mocha);
 }
+
+footer {
+  background: var(--cocoa-shadow);
+  color: var(--garden-cream);
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+  margin-top: var(--space-xxl);
+}
+
+footer p {
+  margin: var(--space-sm) 0;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--pikachu-glow);
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: var(--garden-cream);
+}
