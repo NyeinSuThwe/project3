@@ -21,3 +21,56 @@
   --space-xl: 3rem;
   --space-xxl: 4rem;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--warm-gray);
+  background: linear-gradient(180deg, var(--garden-cream) 0%, var(--fur-beige) 100%);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: var(--deep-mocha);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: var(--space-sm);
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+  color: var(--cocoa-shadow);
+}
+
+p {
+  margin-bottom: var(--space-sm);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+a {
+  color: var(--cocoa-shadow);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--deep-mocha);
+}
