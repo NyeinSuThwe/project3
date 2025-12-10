@@ -314,3 +314,68 @@ footer a {
 footer a:hover {
   color: var(--garden-cream);
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
+  }
+  
+  nav {
+    gap: var(--space-sm);
+  }
+  
+  nav a {
+    font-size: 0.9rem;
+    padding: var(--space-xs) var(--space-sm);
+  }
+  
+  .hero {
+    padding: var(--space-lg) 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero h2 {
+    font-size: 1.1rem;
+  }
+  
+  .cta-button {
+    font-size: 1rem;
+    padding: var(--space-sm) var(--space-lg);
+  }
+  
+  /* About Page - Stack Layout */
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+  
+  /* Timeline Mobile */
+  .timeline::before {
+    left: 20px;
+  }
+  
+  .timeline-item {
+    gap: var(--space-sm);
+  }
+  
+  .timeline-marker {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .timeline-content {
+    padding: var(--space-sm);
+  }
+}
+
