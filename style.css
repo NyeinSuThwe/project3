@@ -379,3 +379,12 @@ footer a:hover {
   }
 }
 
+@media (min-width: 1025px) {
+  .hero h1 {
+    font-size: 5rem;
+  }
+  
+  .about-content {
+    grid-template-columns: 1fr 2fr;
+  }
+}
